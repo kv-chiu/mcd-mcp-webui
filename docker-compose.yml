@@ -5,8 +5,10 @@ services:
     restart: unless-stopped
     ports:
       - "8080:80"
+    networks:
+      - tunnel-net
 
-  # Cloudflare Tunnel (可选)
+  # Cloudflare Tunnel - 自动启动
   cloudflared:
     image: cloudflare/cloudflared:latest
     container_name: cloudflared
@@ -14,5 +16,9 @@ services:
     command: tunnel run
     environment:
       - TUNNEL_TOKEN=${CLOUDFLARE_TUNNEL_TOKEN}
-    profiles:
-      - tunnel
+    networks:
+      - tunnel-net
+
+networks:
+  tunnel-net:
+    driver: bridge
