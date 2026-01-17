@@ -4,6 +4,10 @@
 
 一个精美的 Web 界面，让用户通过自己的 MCP Token 访问麦当劳中国的 MCP 服务。
 
+## 🌐 在线体验
+
+**[👉 立即试用 Demo](https://mcd.kvapi.xyz/)**
+
 ## ✨ 功能特点
 
 - 🎨 **精美暗色主题** - 麦当劳经典黄红配色
@@ -11,6 +15,14 @@
 - 📊 **甘特图** - 可视化优惠券有效期
 - 🎫 **优惠券管理** - 查询、领取优惠券
 - 🔐 **用户自带 Token** - 数据安全，Token 存储在本地
+
+## 📸 界面预览
+
+<p align="center">
+  <img src="assets/mcd-mcp-webui-1.png" width="32%" alt="主界面"/>
+  <img src="assets/mcd-mcp-webui-2.png" width="32%" alt="活动日历"/>
+  <img src="assets/mcd-mcp-webui-3.png" width="32%" alt="可用优惠券"/>
+</p>
 
 ## 🚀 快速开始
 
